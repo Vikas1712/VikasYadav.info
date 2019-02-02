@@ -293,19 +293,19 @@ jQuery(document).ready(function($) {
     var map;
     function initialize() {
         map = new GMaps({
-            div: '#map',
-            lat: -37.817917,
-            lng: 144.965065,
+            div: '#map',         
+            lat: 52.070499,
+            lng: 4.300700,
             zoom: 16
 
         });
         map.addMarker({
-            lat: -37.81792,
-            lng: 144.96506,
+            lat: 52.070499,
+            lng: 4.300700,
             title: 'Marker with InfoWindow',
             icon: 'images/pins-map/map-marker.png',
             infoWindow: {
-                content: '<p>Melbourne Victoria, 300, Australia</p>'
+                content: '<p>The Hague, Netherlands</p>'
             }
         });
     }
